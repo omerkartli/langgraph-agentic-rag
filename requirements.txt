@@ -1,0 +1,8 @@
+langgraph>=0.2
+langchain-core>=0.3
+chromadb>=0.5
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+# Production LLM/embeddings on GCP (Vertex AI). Not needed for offline/test mode.
+langchain-google-vertexai>=2.0
